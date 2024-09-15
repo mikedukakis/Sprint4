@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a7596c-b1c7-48a1-b6df-09d1a908b02a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/S04T01N02/S04T01N02/src/main/java/cat/itacademy/s04/t01/n02/controllers/HelloWorldController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/S04T01N01/S04T01N01/src/main/java/cat/itacademy/s04/t01/n01/controllers/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/S04T01N01/S04T01N01/src/main/java/cat/itacademy/s04/t01/n01/controllers/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S04T01N02/S04T01N02/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/S04T01N02/S04T01N02/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

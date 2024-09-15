@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 
     @GetMapping("/HelloWorld")
-    public String greets(@RequestParam(defaultValue = "UNKNOWN") String name) {
-        return "Hello, " + name + ". You are running a Maven project";
+    public String greet(@RequestParam(defaultValue = "UNKNOWN") String name) {
+        return "Hello, " + name + "! You are running a Maven project";
     }
 
     @GetMapping(value = {"/HelloWorld2", "/HelloWorld2/{name}"})
-    public String greets2(@PathVariable(required = false) String name) {
+    public String greet2(@PathVariable(required = false) String name) {
         if (name == null) {
             name = "UNKNOWN";
         }
-        return "Hello, " + name + ". You are running a Maven project";
+        return "Hello, " + name + "! You are running a Maven project";
     }
 }
